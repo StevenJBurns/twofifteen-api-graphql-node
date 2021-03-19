@@ -5,8 +5,22 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/StevenJBurns/twofifteen-api-graphql-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.35",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:nodemon": "nodemon index.ts",
+    "start": "",
+    "build": ""
   },
   "repository": {
     "type": "git",
@@ -14,9 +28,5 @@
   },
   "bugs": {
     "url": "https://github.com/StevenJBurns/twofifteen-api-graphql-node/issues"
-  },
-  "homepage": "https://github.com/StevenJBurns/twofifteen-api-graphql-node#readme",
-  "devDependencies": {
-    "typescript": "^4.2.3"
   }
 }
