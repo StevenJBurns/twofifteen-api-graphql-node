@@ -19,8 +19,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:nodemon": "nodemon index.ts",
-    "start": "",
+    "nodemon": "nodemon ./src/index.ts",
+    "start": "tsc ./src/index.ts",
     "build": ""
   },
   "repository": {
